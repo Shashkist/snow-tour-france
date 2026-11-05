@@ -16,6 +16,7 @@ img/                    photos for the root tour
 assets/css/site.css     shared styles for ALL tours (change only when asked about design)
 assets/js/site.js       shared behaviour: photo lightbox + countdown
 tools/check.py          validator: run it after every edit, it must print OK
+DESIGN.md               design system + web-designer rules: READ IT for any visual change
 ```
 
 ## Golden rules
