@@ -19,6 +19,9 @@ h2{font-size:clamp(26px,5vw,38px)}h3{font-size:20px}
 .btn.alt{background:transparent;border:2px solid currentColor;box-shadow:none;margin-left:8px}
 .btn.wa{background:var(--wa);box-shadow:0 8px 24px rgba(37,211,102,.4)}
 .btn.wa-num{display:inline-block;background:rgba(37,211,102,.16);color:var(--wa-ink);border:1px solid rgba(37,211,102,.55);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);box-shadow:0 0 14px 3px rgba(37,211,102,.35),inset 0 0 10px rgba(37,211,102,.25);padding:11px 16px;font-size:18px;letter-spacing:.04em}
+.org-name{padding:18px 20px 14px;text-align:center;font:italic 700 clamp(34px,9vw,44px)/1.1 "Snell Roundhand","Segoe Script","Brush Script MT","Lucida Handwriting",cursive;color:var(--accent2);text-shadow:0 0 6px rgba(26,109,255,.55),0 0 18px rgba(26,109,255,.4)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .org-name{color:#cfe1ff;text-shadow:0 0 6px rgba(120,170,255,.9),0 0 20px rgba(26,109,255,.8)}}
+:root[data-theme="dark"] .org-name{color:#cfe1ff;text-shadow:0 0 6px rgba(120,170,255,.9),0 0 20px rgba(26,109,255,.8)}
 .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
 .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px}
 .big{font-size:38px;font-weight:800;letter-spacing:-.03em;color:var(--accent2)}
